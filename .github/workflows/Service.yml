@@ -13,8 +13,8 @@ jobs:
           python -m pip install --upgrade pip
           pip install --upgrade setuptools
           pip install --upgrade importlib-metadata
-          pip install pyopenjtalk --no-build-isolation
           pip install -r requirements.txt
+          pip install pyopenjtalk --no-build-isolation
           cd ys
           aria2c https://github.com/LemonFan-maker/Download-Models/releases/download/ys/ys.pth
           cd ..
