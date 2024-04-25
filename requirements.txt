@@ -8,6 +8,7 @@ tensorboard==2.9.0
 torch==1.12.1 
 torchvision==0.13.1
 Unidecode==1.1.1
+pyproject
 pyopenjtalk==0.2.0
 jamo==0.4.1
 pypinyin==0.44.0
